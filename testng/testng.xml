@@ -44,4 +44,21 @@
 	  </classes>
   </test> <!-- Test -->
    
+    <test thread-count="5" name="FaceMismatchRegressionSuite" enabled="true">
+	  <classes>
+		  <class name="com.hrms.test.FaceMismatchRegressionSuite"/>
+	  </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="RegistrationRequestRegressionSuite" enabled="true">
+	  <classes>
+		  <class name="com.hrms.test.RegistrationRequestRegressionSuite"/>
+	  </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="MonthlyReportPageRegressionSuite" enabled="true">
+	  <classes>
+		  <class name="com.hrms.test.MonthlyReportPageRegressionSuite"/>
+	  </classes>
+  </test> <!-- Test -->
 </suite>
